@@ -28,6 +28,8 @@ namespace Api.Controllers
         {
             int i = 10;
 
+            int c = 100;
+
             var rng = new Random();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
